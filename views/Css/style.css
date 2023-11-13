@@ -1,0 +1,533 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Oswald&family=Raleway:ital,wght@0,400;0,700;1,300&family=Roboto+Condensed:ital@1&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Raleway', sans-serif;
+}
+
+/*HEADER*/
+
+.header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 1% 0%;
+    background-color: #2c2c2c;
+}
+
+.title-header h1 {
+    color: rgb(19, 126, 197);
+}
+
+.nav ol {
+    display: flex;
+}
+
+.nav ol li {
+    margin: 0px 10px;
+    list-style-type: none;
+}
+
+.nav ol li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 600;
+}
+
+.nav ol li a:hover {
+    transition: .5s;
+    color: #ccc;
+}
+
+/*FIM HEADER*/
+
+/*SECTION*/
+
+.section {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 3% 2%;
+}
+
+.conteudo-section {
+    border-bottom: 1px solid black;
+    margin: 0px 20px;
+}
+
+.conteudo-section h1 {
+    font-weight: 800;
+}
+
+.conteudo-section h2 {
+    color: rgb(19, 126, 197);
+}
+
+
+.carousel-inner img {
+    border-radius: 20px;
+}
+
+
+/*FIM SECTION*/
+
+/* SECTION PRODUTOS*/
+
+.section-produtos {
+    padding: 3% 2%;
+    background-color: #f7f4f4;
+}
+
+.title-section-produtos {
+    text-align: center;
+    border-bottom: 1px solid black;
+}
+
+.title-section-produtos h3 {
+    color: rgb(19, 126, 197);
+}
+
+.container-section-produtos {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.container-section-produtos1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    margin: 50px 0px;
+}
+
+.img-section-produtos img {
+    width: 20vw;
+    border-radius: 10px;
+    margin: 20px 50px;
+}
+
+.img-section-produtos img:hover {
+    transition: 1.0s ease;
+    transform: translateY(-20%);
+    cursor: pointer;
+}
+
+.Infor-section-produtos {
+    max-width: 300px;
+}
+
+.Infor-section-produtos a {
+    text-decoration: none;
+    background-color: rgb(19, 126, 197);
+    color: #fff;
+    font-weight: 700;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+.Infor-section-produtos a:hover {
+    transition: 1.1s;
+    box-shadow: 10px 10px 20px black;
+}
+
+/* FIM SECTION PRODUTOS*/
+
+/* SECTION TABLETS */
+
+.section-tablets {
+    padding: 2% 2%;
+}
+
+.container-section-tablets1 {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: space-around;
+}
+
+.img-container-section-tablets1 img {
+    width: 40vw;
+    border-radius: 20px;
+    box-shadow: 10px 10px 20px black;
+}
+
+.conteudo-container-section-tablets1 {
+    max-width: 500px;
+}
+
+.conteudo-container-section-tablets1 h3 {
+    color: rgb(19, 126, 197);
+}
+
+
+.container-section-tablets2 {
+    display: flex;
+    flex-direction: row-reverse;
+    align-content: center;
+    justify-content: space-around;
+}
+
+
+.img-container-section-tablets2 img {
+    width: 40vw;
+    border-radius: 20px;
+    box-shadow: 10px 10px 20px black;
+}
+
+.conteudo-container-section-tablets2 {
+    max-width: 500px;
+}
+
+.conteudo-container-section-tablets2 h3 {
+    color: rgb(19, 126, 197);
+}
+
+
+/* FIM SECTION TABLETS */
+
+/* ASIDE */
+
+.content-aside {
+    padding: 2% 2%;
+}
+
+.content-aside>h3 {
+    text-align: center;
+    color: rgb(19, 126, 197);
+    border-bottom: 1px solid black;
+    margin: 0px 50px;
+    padding-bottom: 10px;
+    font-weight: 800;
+}
+
+.h4 {
+    color: #000;
+    font-weight: 800;
+    margin: 30px 0px;
+    text-align: center;
+}
+
+.container-aside {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5% 2%;
+    background-color: #2c2c2c;
+}
+
+.container-aside img {
+    width: 25vw;
+    border-radius: 10px;
+}
+
+.container-aside img:hover {
+    transition: 1.1s;
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+/*FIM ASIDE*/
+
+/* PRODUTOS */
+
+.produtos {
+    padding: 2% 2%;
+    background-color: #f7f4f4;
+}
+
+.title-produtos {
+    text-align: center;
+    border-bottom: 1px solid black;
+}
+
+.title-produtos h4 {
+    color: rgb(19, 126, 197);
+}
+
+.container-podutos {
+    margin: 80px 0px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.img-produtos>img {
+    width: 15vw;
+    border-radius: 20px;
+}
+
+.img-produtos img:hover {
+    transition: 1.1s ease;
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.description-product {
+    max-width: 350px;
+    text-align: center;
+}
+
+.description-product h2 {
+    font-size: 30px;
+}
+
+.description-product h3 {
+    font-size: 16px;
+}
+
+.container-produtos1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1px solid black;
+    padding: 5% 0;
+}
+
+.description-product a {
+    background-color: rgb(19, 126, 197);
+    padding: 10px 15px;
+    color: #fff;
+    font-weight: 800;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.description-product>a:hover {
+    transition: 1.1s;
+    box-shadow: 10px 10px 20px black;
+}
+
+/* FIM PRODUTOS* /
+
+
+/*SEÇÃO IPHONES*/
+
+.iphones {
+    padding: 3% 2%;
+    ;
+    background-color: #2c2c2c;
+}
+
+.iphones h1 {
+    text-align: center;
+    color: rgb(19, 126, 197);
+    font-weight: 800;
+}
+
+.iphones h1:nth-child(3) {
+    color: #fff;
+    font-weight: 800;
+}
+
+
+.container-iphones {
+    display: grid;
+    grid-template-columns: repeat(3, 2fr);
+    text-align: center;
+}
+
+.container-iphones img {
+    width: 20vw;
+    margin: 30px 0px;
+    border-radius: 10px;
+}
+
+.container-iphones img:hover {
+    transition: 1.1s;
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+/* FIM SEÇÃO IPHONES*/
+
+/* DEPOIMENTOS */
+
+.depoimentos {
+    padding: 3% 2%;
+}
+
+.container-depoimentos {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px 20px;
+}
+
+.title-depoimentos {
+    text-align: center;
+    margin-bottom: 50px;
+    border-bottom: 1px solid black;
+    color: rgb(19, 126, 197);
+}
+
+/* FIM DEPOIMENTOS */
+
+
+/* PÁGINA DE AFILIADO*/
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 50px 0px;
+}
+
+.form input {
+    width: 50vw;
+    height: 7vh;
+}
+
+#Btnlogin {
+    width: 30vw;
+    height: 6vh;
+}
+
+.container-afiliado {
+    margin: 50px 10px;
+    color: rgb(19, 126, 197);
+}
+
+
+#Btnlogin:hover {
+    transition: 1.1s;
+    box-shadow: 10px 10px 20px black;
+}
+
+/* FIM PÁGINA DE AFILIADO*/
+
+
+/* PÁGINA RELIZAR PAGAMENTO*/
+
+.container-total-products {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: space-around;
+    padding: 2% 2%;
+}
+
+.price {
+    text-align: center;
+}
+
+.price h4 {
+    font-weight: 700;
+    margin-bottom: 120px;
+}
+
+.price a {
+    margin: 20px 30px;
+    text-decoration: none;
+    color: #fff;
+    background-color: rgb(19, 126, 197);
+    padding: 10px 15px;
+    border-radius: 5px;
+    margin-top: 50px;
+}
+
+.price a:hover {
+    transition: 1.1s;
+    box-shadow: 10px 10px 20px black;
+}
+
+/* FIM PÁGINA RELIZAR PAGAMENTO*/
+
+
+/* PÁGINA DE COMPRAS*/
+
+
+#Comprar {
+    padding: 10px 15px;
+    background-color: rgb(19, 126, 197);
+    font-weight: 800;
+    color: #fff;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+}
+
+#Comprar:hover {
+    transition: 1.1s;
+    box-shadow: 10px 10px 20px black;
+}
+
+
+/*FIM PÁGINA DE COMPRAS*/
+
+
+/* BUTTONS DE FINALIZAR COMPRAR*/
+
+#confirmar {
+    width: 30vw;
+    height: 6vh;
+    background-color: rgb(19, 126, 197);
+    font-weight: 800;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+}
+
+#confirmar:hover {
+    transition: 1.1s;
+    box-shadow: 10px 10px 20px black;
+}
+
+/* FIM BUTTONS DE FINALIZAR COMPRAR*/
+
+/*FOOTER*/
+
+.footer {
+    background-color: #2c2c2c;
+    padding: 1% 2%;
+    color: #fff;
+}
+
+.container-footer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around
+}
+
+.footer-imgs {
+    display: flex;
+    align-items: center;
+}
+
+.footer-imgs img {
+    width: 10vw;
+    margin: 0px 10px;
+}
+
+.container-footer h3 {
+    color: rgb(19, 126, 197);
+    text-align: center;
+}
+
+.container-footer3 ol li {
+    list-style-type: none;
+    margin: 10px 0px;
+}
+
+.container-footer3 ol li a {
+    text-decoration: none;
+    color: rgb(19, 126, 197);
+}
+
+.footer>h6 {
+    margin: 20px 0px;
+    text-align: center;
+    border-top: 1px solid #fff;
+    padding: 1%;
+}
+
+/* FIM FOOTER*/
